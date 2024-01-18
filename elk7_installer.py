@@ -148,4 +148,4 @@ with open('jvm.options', 'w') as f:
 run_command('systemctl daemon-reload')
 run_command('systemctl enable elasticsearch')
 run_command('systemctl start elasticsearch')
-run_command('curl -X GET "localhost:9200/?pretty"')
+run_command('curl -X GET "localhost:9200/"')
